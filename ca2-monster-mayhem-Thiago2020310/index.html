@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="main-title">Welcome to Monsters Mayhem</h1>
+    <!--Name input section-->
+    <section class="name-input-section">
+        <form action="" id="name-form">
+            <label for="name" id="form-name-label">Player <b style="text-decoration: underline;">| 1 |</b> Name:</label>
+            <input type="text" name="name" id="name" class="input-name-box">
+            <button type="submit" id="sbmtBtn" class="submit-btn">Submit</button>
+            <button type="reset" id="resetBtn" class="submit-btn">Reset</button>
+        </form>
+    </section>
+    <!--Name Display section-->
+    <section id="name-display" class="name-display">
+        
+        <!--Name list display-->
+        <ul class="name-list" id="name-list">
+            <h1 class="name-display-title">Players list</h1>
+        </ul>
+
+    </section>
+    <!--Main section with table-->
+    <section id="board-section">
+    </section>
+
+    <section class="monster-select-section">
+        <div class="monster-hexagon" hidden>
+            <p class="monster">Vampire</p>
+        </div>
+        <div class="monster-hexagon" hidden>
+            <p class="monster">Undead</p>
+        </div>
+        <div class="monster-hexagon" hidden>
+            <p class="monster">Werewolf</p>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
